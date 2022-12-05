@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    
+}
+a{
+    text-decoration: none;
+}
+.box{
+   height: 100vh;
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo img{
+    width: 112px;
+    height: 50px;
+    cursor: pointer;
+}
+header{
+    padding-top: 16px;
+    margin-bottom: 46px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hrefs a{
+    margin-left: 48px;
+    color: #023135;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+.text h1{
+    width: 531px;
+   
+    font-size: 50px;
+    font-weight: 400;
+    color:#32404D;
+    margin-bottom: 21px;
+}
+.text p {
+    width:337px ;
+    color:#023135;
+    margin-bottom: 60px;
+}
+.text button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #007A5C;
+border-radius: 30px;
+color: white;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide{
+    width: 457px;
+    height: 517px;
+    background-image: url(../img/telephone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper{
+    width: 188px;
+    height: 382px; 
+    position: absolute;
+    left: -88px;
+    z-index: 5;
+    top: 28px;
+}
+   
+iframe{
+    width: 188px;
+    height: 382px;
+    border-radius: 0 0 20px 20px;
+}
+.swiper-slide::after{
+    content: '';
+    width: 58px;
+    height: 202px;
+    position: absolute;
+   
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    
+   
+}
+.swiper-slide::before{
+    content: '';
+    width: 58px;
+    height: 202px;
+    position: absolute;
+    right: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  
+}
+.brg-logo span{
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    display: flex;
+    margin-top: 3px;
+
+}
+.center {
+    width: 15px !important;
+    
+}
+.brg-logo{
+    width: fit-content;
+    cursor: pointer;
+    display: none;
+    
+}
